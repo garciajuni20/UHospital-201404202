@@ -154,7 +154,7 @@
                                         password: loginPassword.value,
                                 };
                                 console.log(credentials);
-                                fetch("https://192.168.100.252:105/login", {
+                                fetch("http://192.168.100.252:105/login", {
                                         method: "POST",
                                         headers: {
                                                 "content-type": "application/json",
@@ -238,7 +238,7 @@
                                         typeUser: 1,
                                 };
                                 console.log(newPatient);
-                                fetch("https://192.168.100.252:105/signup", {
+                                fetch("http://192.168.100.252:105/signup", {
                                         method: "POST",
                                         headers: {
                                                 "content-type": "application/json",
