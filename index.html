@@ -154,7 +154,7 @@
                                         password: loginPassword.value,
                                 };
                                 console.log(credentials);
-                                fetch("https://uhospital-201404202.herokuapp.com/login", {
+                                fetch("http://192.168.100.252:3000/login", {
                                         method: "POST",
                                         headers: {
                                                 "content-type": "application/json",
@@ -238,7 +238,7 @@
                                         typeUser: 1,
                                 };
                                 console.log(newPatient);
-                                fetch("https://uhospital-201404202.herokuapp.com/signup", {
+                                fetch("http://192.168.100.252:3000/signup", {
                                         method: "POST",
                                         headers: {
                                                 "content-type": "application/json",
